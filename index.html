@@ -15,11 +15,11 @@
     <div id="menu-btn" class="fas fa-bars"></div>
     <a href="#home" class = "logo"> Portfolio.</a>
     <nav class = "navbar">
-        <a href="#home">home</a>
-        <a href="#sobremi">sobre mi</a>
-        <a href="#servicios">servicios</a>
+        <a href="#home" class="active">home</a>
+        <a href="#about">sobre mi</a>
+        <a href="#services">servicios</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#contact">Contacto</a>
     </nav>
     <div class="follow">
         <a href="#" class="fab fa-facebook-f"></a>
@@ -102,12 +102,105 @@
     
 </section>
 <!--termina seccion SOBRE MI-->
-<!--empieza Habilidades-->
+<!--empieza Servicios-->
+<section class="services" id="services">
+    <h1 class="heading"><span>Servicios</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>Desarrollo web</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-recycle"></i>
+            <h3>Asesoria Ambiental</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-industry"></i>
+            <h3>Asesoria Industrial</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-satellite"></i>
+            <h3>QGIS</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Analisis de datos</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="box">
+            <i class="fa-solid fa-leaf"></i>
+            <h3>Sustentabilidad</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        
 
-<!--termina Habilidades-->
+    </div>
+</section>
+<!--termina Servicios-->
+<!--Empieza portfolio-->
+<section class="portfolio" id="portfolio">
+    <h1 class="heading"><span>Portfolio</span></h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="img/foto alguacil.jpg" alt="">
+            <h3>Front-end para argentina programa</h3>
+            <span>(2022)</span>
+        </div>
+
+        <div class="box">
+            <img src="img/foto girafa.jpg" alt="">
+            <h3>Proyecto Data science-Coder House</h3>
+            <span>(2023)</span>
+        </div>
+
+        <div class="box">
+            <img src="img/foto buho.jpg" alt="">
+            <h3>Proyecto Data science-Coder House</h3>
+            <span>(2020)</span>
+        </div>
 
 
+    </div>
+</section>
+<!--Termina portfolio-->
+<!--Empieza contacto-->
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contacto</span></h1>
+    <form action="" method="post">
+        <div class="flex">
+            <input type="text" name="nombre" placeholder="Tu nombre" class="box" required>
+            <input type="email" name="email" placeholder="Tu mail" class="box" required>
+            
+        </div>
+        <input type="number" min="0" name="numero" placeholder="Telefono" class="box" required>
+        <textarea name="mensaje" class="box" required placeholder="Mandame un mensaje" cols="30" rows="10" ></textarea>
+        <input type="submit" value="Enviar mensaje" name="send" class="btn">
+    </form>
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-phone"></i>
+            <h3>Telefono</h3>
+            <p>+54</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-envelope"></i>
+            <h3>Mail</h3>
+            <p>guadabosio@gmail.com</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-map-location"></i>
+            <h3>Mail</h3>
+            <p>guadabosio@gmail.com</p>
+        </div>
 
+    </div>
+</section>
+<!--Termina contacto-->
+<div class="credit">&copy;  <span>Guada</span></div>
 
 
 
