@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto integrador</title>
+    <!--estilos fuente fontawesome -->
     <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- aos css link  -->
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!--estilos en css link -->
     <link rel="stylesheet" href = "style.css">
 </head>
@@ -15,86 +18,86 @@
     <div id="menu-btn" class="fas fa-bars"></div>
     <a href="#home" class = "logo"> Portfolio.</a>
     <nav class = "navbar">
+        <img src="img/moon.png" id="icon">
         <a href="#home" class="active">home</a>
         <a href="#about">sobre mi</a>
         <a href="#services">servicios</a>
         <a href="#portfolio">Portfolio</a>
-        <a href="#contact">Contacto</a>
+        <a href="#contacto">Contacto</a>
     </nav>
     <div class="follow">
-        <a href="#" class="fab fa-facebook-f"></a>
-        <a href="#" class="fab fa-twitter"></a>
-        <a href="#" class="fab fa-instagram"></a>
-        <a href="#" class="fab fa-linkedin"></a>
-        <a href="#" class="fab fa-github"></a>
+        <a href="https://www.facebook.com/guadalupe.bosio" class="fab fa-facebook-f"></a>
+        <a href="https://www.instagram.com/guadenn" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/in/guadalupe-lucia-bosio-61aa5a143/" class="fab fa-linkedin"></a>
+        <a href="https://github.com/guadenn" class="fab fa-github"></a>
     </div>
 </header>
 <!--seccion HEADER termina-->
 <!--empieza seccion INICIO--> 
 <section class="home" id="home">
-    <div class="image">
-        <img src = "img/foto aguila.jpg" alt="">
+    <div class="image" data-aos="fade-right">
+        <img src = "img/foto camaleon.jpg" alt="">
     </div>
     <div class="content">
-        <h3>Hola, soy Guada </h3>
-        <span>Bosio</span>
-        <p>Lorem, ipsum dolor sit amet consectetur </p>
-        <a href="#about" class="btn">sobre mi </a>
+        <h3 data-aos="fade-up">Hola, soy Guada </h3>
+        <span data-aos="fade-up">Bosio</span>
+        <p data-aos="fade-up">Lorem, ipsum dolor sit amet consectetur </p>
+        <a data-aos="fade-up" href="#about" class="btn">sobre mi </a>
     </div>
 </section>
 <!--termina seccion INICIO--> 
 <!--empieza seccion SOBRE MI-->
 <section class="about" id="about">
-    <h1 class="heading"><span>Biografia</span></h1>
+    <h1 class="heading"  data-aos="fade-up"><span>Biografia</span></h1>
     <div class="biography">
-        <p>badjnqwijqe</p>
+        <p  data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis inventore omnis ullam est accusantium aspernatur pariatur dict</p>
         <div class="bio">
-            <h3><span>name:</span>Guadalupe Bosio</h3>
-            <h3><span>email:</span>Guadalupe@Bosio</h3>
-            <h3><span>direccion:</span>Guadalupe@Bosio</h3>
-            <h3><span>telefono:</span>+123 </h3>
-            <h3><span>edad:</span>qwe</h3>
-            <h3><span>exp</span>qwe</h3>
+            <h3 data-aos="zoom-in"><span>Nombre:</span>Guadalupe Bosio</h3>
+            <h3 data-aos="zoom-in"><span>Email:</span>guadabosio@gmail.com</h3>
+            <h3 data-aos="zoom-in"><span>Ubicacion:</span>Buenos Aires, Argentina</h3>
+            <h3 data-aos="zoom-in"><span>Telefono:</span>1165775757</h3>
+            <h3 data-aos="zoom-in"><span>Edad:</span>30</h3>
+            <h3 data-aos="zoom-in"><span>Experiencia</span>+5</h3>
         </div>
-        <a href="#" class="btn"> download CV</a>
+        <a href="archivo/CV - Guadalupe Bosio 2023.pdf" class="btn" data-aos="fade-up"> Descargar CV</a>
         
     </div>
     <div class="skills">
-       <h1 class="heading"><span>Skills</span></h1>
+       <h1 class="heading"><span>Habilidades</span></h1>
        <div class="progress">
-          <div class="bar"><h3><span>HTML</span><span>95</span></h3></div>
-          <div class="bar"><h3><span>CSS</span><span>85</span></h3></div>
-          <div class="bar"><h3><span>JS</span><span>75</span></h3></div>
-          <div class="bar"><h3><span>PYTHON</span><span>65</span></h3></div>
+          <div class="bar" data-aos="fade-left"><h3><span>HTML</span><span>95</span></h3></div>
+          <div class="bar" data-aos="fade-right"><h3><span>CSS</span><span>85</span></h3></div>
+          <div class="bar" data-aos="fade-left"><h3><span>JS</span><span>75</span></h3></div>
+          <div class="bar" data-aos="fade-right"><h3><span>PYTHON</span><span>65</span></h3></div>
        </div>
     </div>
     <div class="edu-exp">
-        <h1 class="heading"><span>educacion y experiencia</span></h1>
+        <h1 class="heading" data-aos="fade-up"><span>educacion y experiencia</span></h1>
         <div class="row">
             <div class="box-container">
-                <h3 class="title">educacion</h3>
-                <div class="box">
+                <h3 class="title" data-aos="fade-right">educacion</h3>
+                <div class="box" data-aos="fade-right">
                     <span>(2019 - 2020)</span>
-                    <h3>webn</h3>
-                    <p>sdada</p>
+                    <h3>Data Analytics</h3>
+                    <p>Coder house</p>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-right">
                     <span>(2018 - 2019)</span>
-                    <h3>www</h3>
-                    <p>aaa</p>
+                    <h3>Licenciatura en Gerenciamiento Ambiental</h3>
+                    <p>UCES</p>
                 </div>
             </div>
-            <div class="box-container">
+            <div class="box-container" data-aos="fade-right">
                 <h3 class="title">experiencia</h3>
                 <div class="box">
                     <span>(2019 - 2020)</span>
-                    <h3>webn</h3>
-                    <p>sdada</p>
+                    <h3>Agencia de Proteccion Ambiental</h3>
+                    <p>Evaluacion de impacto ambiental</p>
                 </div>
-                <div class="box">
+                <div class="box" data-aos="fade-left">
                     <span>(2018 - 2019)</span>
-                    <h3>www</h3>
-                    <p>aaa</p>
+                    <h3>IHSA</h3>
+                    <p>Asesoria & Consultoria ambiental</p>
                 </div>
             </div>
         </div>
@@ -104,34 +107,34 @@
 <!--termina seccion SOBRE MI-->
 <!--empieza Servicios-->
 <section class="services" id="services">
-    <h1 class="heading"><span>Servicios</span></h1>
+    <h1 class="heading" data-aos="fade-up"><span>Servicios</span></h1>
     <div class="box-container">
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fas fa-code"></i>
             <h3>Desarrollo web</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fa-solid fa-recycle"></i>
             <h3>Asesoria Ambiental</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fa-solid fa-industry"></i>
             <h3>Asesoria Industrial</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fa-solid fa-satellite"></i>
             <h3>QGIS</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fa-solid fa-chart-line"></i>
             <h3>Analisis de datos</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
-        <div class="box">
+        <div class="box" data-aos="zoom-in">
             <i class="fa-solid fa-leaf"></i>
             <h3>Sustentabilidad</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -143,22 +146,22 @@
 <!--termina Servicios-->
 <!--Empieza portfolio-->
 <section class="portfolio" id="portfolio">
-    <h1 class="heading"><span>Portfolio</span></h1>
+    <h1 class="heading" data-aos="fade-up"><span>Portfolio</span></h1>
     <div class="box-container">
-        <div class="box">
-            <img src="img/foto alguacil.jpg" alt="">
+        <div class="box" data-aos="zoom-in">
+            <a href ="https://github.com/guadenn/proyectointegrador_GuadalupeBosio"><img src="img/foto alguacil.jpg" alt=""></a>
             <h3>Front-end para argentina programa</h3>
             <span>(2022)</span>
         </div>
 
-        <div class="box">
-            <img src="img/foto girafa.jpg" alt="">
+        <div class="box" data-aos="zoom-in">
+            <a href="https://github.com/guadenn/weatheraus"><img src="img/foto girafa.jpg" alt=""></a>
             <h3>Proyecto Data science-Coder House</h3>
             <span>(2023)</span>
         </div>
 
-        <div class="box">
-            <img src="img/foto buho.jpg" alt="">
+        <div class="box" data-aos="zoom-in">
+            <a href="https://drive.google.com/file/d/1GWa0ZemiRzen31fz9UG9v0Sc0Yq1J9ko/view?usp=sharing"><img src="img/foto buho.jpg" alt=""></a>
             <h3>Proyecto Data science-Coder House</h3>
             <span>(2020)</span>
         </div>
@@ -168,36 +171,42 @@
 </section>
 <!--Termina portfolio-->
 <!--Empieza contacto-->
-<section class="contact" id="contact">
-    <h1 class="heading"><span>Contacto</span></h1>
-    <form action="" method="post">
-        <div class="flex">
-            <input type="text" name="nombre" placeholder="Tu nombre" class="box" required>
-            <input type="email" name="email" placeholder="Tu mail" class="box" required>
-            
+<section class= "contacto" id="contacto">
+        <h1 data-aos="fade-up" class="heading">Contactame</h1>
+        <div class="contenedor-form">
+            <form id="form" action="https://formsubmit.co/guadabosio@gmail.com" method="POST" class="form">
+                <div class="fila mitad">
+                    <input data-aos="fade-up" name ="name" id = "nombre" type="text" placeholder="Nombre Completo" class="input-mitad">
+                    <input data-aos="fade-up" name="email" id = "email" type="text" placeholder="Direccion mail" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input data-aos="zoom-in" name="tema" type="text"placeholder="Tema" class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea data-aos="zoom-in" name="message" id="message" cols="30" rows="10" placeholder="Tu mensaje.." class="input-full"></textarea>
+                </div>
+                <input data-aos="zoom-in" type="submit" value="Enviar mensaje" class="btn-enviar">
+            </form>
+            <a href="mailto:guadabosio@gmail.com" id="emailA"></a>
         </div>
-        <input type="number" min="0" name="numero" placeholder="Telefono" class="box" required>
-        <textarea name="mensaje" class="box" required placeholder="Mandame un mensaje" cols="30" rows="10" ></textarea>
-        <input type="submit" value="Enviar mensaje" name="send" class="btn">
-    </form>
-    <div class="box-container">
-        <div class="box">
-            <i class="fas fa-phone"></i>
-            <h3>Telefono</h3>
-            <p>+54</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-envelope"></i>
-            <h3>Mail</h3>
-            <p>guadabosio@gmail.com</p>
-        </div>
-        <div class="box">
-            <i class="fas fa-map-location"></i>
-            <h3>Mail</h3>
-            <p>guadabosio@gmail.com</p>
-        </div>
+        <div class="box-container">
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-phone"></i>
+                <h3>Telefono</h3>
+                <p>+54 1165775757</p>
+            </div>
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-envelope"></i>
+                <h3>Mail</h3>
+                <p>guadabosio@gmail.com</p>
+            </div>
+            <div class="box" data-aos="zoom-in">
+                <i class="fas fa-map-location"></i>
+                <h3>Ubicacion</h3>
+                <p>Buenos Aires, Argentina</p>
+            </div>
 
-    </div>
+        </div>
 </section>
 <!--Termina contacto-->
 <div class="credit">&copy;  <span>Guada</span></div>
@@ -225,5 +234,14 @@
 
 <!--link estilo js-->
 <script src="script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+
+    AOS.init({
+       duration:800,
+       delay:300
+    });
+ 
+</script>
 </body>
 </html>

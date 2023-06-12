@@ -32,3 +32,39 @@ window.onscroll = () =>{
 
    });
 }
+
+///formulario
+const form = document.getElementById("form")
+const sendMail = document.getElementById("emailA")
+
+
+function handleSendEmail(event){
+    event.preventDefault()
+    const fd = new FormData(this)
+
+
+    sendMail.setAttribute(
+        'href',
+        `mailTo:guadabosio@gmail.com?subject=${fd.get('tema')}&body=${fd.get('message')}`
+    )
+
+
+    sendMail.click()
+}
+
+
+form.addEventListener('submit', handleSendEmail)
+
+
+//tema oscuro
+
+var icon = document.getElementById("icon");
+icon.onclick = function(){
+   document.body.classList.toggle("dark-theme");
+   if(document.body.classList.contains("dark-theme")){
+      icon.src = "img/sun.png";
+   }else{
+      icon.src = "img/moon.png";
+   }
+
+}
